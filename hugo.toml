@@ -18,8 +18,8 @@ theme = "ananke"
   weight = 2
 
 [[menu.main]]
-  name = "Resume"
-  url = "/resume/"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/dan1492/"
   weight = 3
 
 [[menu.main]]
