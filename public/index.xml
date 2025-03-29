@@ -16,6 +16,20 @@
       <description>&lt;p&gt;Hi, I’m currently pursuing a Master of Science in Data Science at Northwestern University 🎓&lt;/p&gt;&#xA;&lt;p&gt;My focus is on integrating data science, finance, and AI to solve complex problems and drive strategy.&lt;/p&gt;&#xA;&lt;p&gt;Before Northwestern, I earned a Master’s in Accounting from the Carlson School of Management at the University of Minnesota, and a Bachelor of Science in Accounting from the University of Nebraska–Lincoln. I’ve held finance leadership roles across multiple companies, including as a Finance Manager, where I built a foundation in strategic decision-making and cross-functional collaboration.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Courses</title>
+      <link>http://localhost:1313/courses/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/</guid>
+      <description>&lt;h1 id=&#34;-courses-ive-taken&#34;&gt;📚 Courses I&amp;rsquo;ve Taken&lt;/h1&gt;&#xA;&lt;p&gt;Here’s a selection of graduate-level courses I’ve completed as part of the Master of Science in Data Science program at Northwestern University. Each course has played a role in building my expertise in data science, AI, and analytics.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;msds-442-dl-ai-agent-design-and-development&#34;&gt;MSDS 442-DL: AI Agent Design and Development&lt;/h2&gt;&#xA;&lt;p&gt;This applied AI course explores how to design, build, and deploy intelligent agents. Topics include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reason-and-act methods&lt;/li&gt;&#xA;&lt;li&gt;Finite state machines and agent architectures&lt;/li&gt;&#xA;&lt;li&gt;Intelligent prompting and goal-driven systems&lt;/li&gt;&#xA;&lt;li&gt;Human-in-the-loop workflows&lt;/li&gt;&#xA;&lt;li&gt;API integration and tool use&lt;/li&gt;&#xA;&lt;li&gt;Multi-agent systems with large language models&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The course is project-based and involves using open-source frameworks to build stateful, autonomous agents capable of completing complex, multi-step tasks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;p&gt;📄 &lt;a href=&#34;http://localhost:1313/Daniel-Balette-Resume.pdf&#34;&gt;Click here to download my resume (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This resume highlights my experience blending finance, AI, and strategy.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title></title>
       <link>http://localhost:1313/posts/welcome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
