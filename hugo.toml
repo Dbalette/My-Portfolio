@@ -1,7 +1,7 @@
 baseURL = "https://dbalette-ai-finance.netlify.app"
 languageCode = "en-us"
 title = "My Portfolio"
-theme = "tella"
+theme = "ananke"
 
 [params]
   mainSections = ["posts"]
