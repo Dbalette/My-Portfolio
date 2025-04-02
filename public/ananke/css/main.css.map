@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/daniel/quickstart",
+	"sourceRoot": "/Users/daniel/my-portfolio",
 	"sources": [
 		"ananke/css/main.css"
 	],

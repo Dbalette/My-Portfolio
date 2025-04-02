@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Portfolio</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content on My Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MSDS_Module-1_ChatGPT_Integration-Translator.ipynb</title>
+      <link>http://localhost:1313/projects/github-project/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/github-project/</guid>
+      <description>&lt;p&gt;📘 &lt;strong&gt;Description&lt;/strong&gt;&lt;br&gt;&#xA;This project demonstrates a modular approach to building a multilingual translator using the LangChain framework and OpenAI’s GPT-4o-mini model. Designed for the MSDS 442 course at Northwestern University, this script showcases secure API integration, prompt engineering, and real-time language translation using large language models.&lt;/p&gt;&#xA;&lt;p&gt;🔧 &lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Secure Environment Setup&lt;/strong&gt;: Uses &lt;code&gt;os&lt;/code&gt; and &lt;code&gt;getpass&lt;/code&gt; to securely handle API keys for OpenAI, LangChain, and Tavily, avoiding hard-coded credentials.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LLM Integration&lt;/strong&gt;: Initializes a GPT-4o-mini chat model via LangChain’s &lt;code&gt;ChatOpenAI&lt;/code&gt; class for efficient, conversational interactions.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Prompt Engineering&lt;/strong&gt;: Dynamically constructs system and user prompts using LangChain’s &lt;code&gt;PromptTemplate&lt;/code&gt;, guiding the model to translate text between languages.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interactive Workflow&lt;/strong&gt;: Accepts user-defined languages and phrases, fills the prompt templates with actual values, and invokes the model.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Clear Output&lt;/strong&gt;: Displays both the final prompt structure and the model’s translation, providing full transparency into the LLM interaction.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://github.com/Dbalette/MSDS_Class_Work&#34;&gt;View the source code on GitHub&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
