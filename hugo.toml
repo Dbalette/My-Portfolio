@@ -31,3 +31,8 @@ theme = "ananke"
   name = "Courses"
   url = "/courses/"
   weight = 5
+
+[[menu.main]]
+  name = "Recommended Readings"
+  url = "/reading/"
+  weight = 6
