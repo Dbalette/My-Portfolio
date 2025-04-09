@@ -40,19 +40,18 @@ Students write code to handle diverse datasets and implement robust data extract
 
 ---
 
-## MSDS 430-DL: Python for Data Science
+## MSDS 472-DL: Management Consulting
 
-This course develops proficiency in Python for data wrangling, analysis, and modeling. Students gain hands-on experience with:
+This course introduces the concepts, processes, tools, and techniques of management consulting. Topics include:
 
-- Data structures and control flow in Python  
-- Working with NumPy and pandas  
-- Data visualization using Matplotlib and Seaborn  
-- Building and evaluating statistical models  
-- Writing clean, maintainable Python code  
-- Integrating Python into data science pipelines  
+- Winning consulting work
+- Executing client engagements
+- Communicating effectively with clients
+- Managing long-term client relationships
 
-The course emphasizes practical problem-solving through individual assignments and real-world datasets.
+Students work in teams to simulate a real-world consulting engagement, developing critical thinking, listening, speaking, and written communication skills. A strong emphasis is placed on constructing consulting presentations and using data visualization best practices to communicate findings and client impact.
 
+This course is ideal for students interested in management consulting careers, as well as those in internal expert or advisory roles.
 ---
 
 More courses will be added as I progress through the program!
