@@ -2,6 +2,7 @@
 title: "MSDS_Module-1_ChatGPT_Integration-Translator.ipynb"
 date: 2025-04-01
 draft: false
+weight: 1
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
 
@@ -27,3 +28,4 @@ More importantly, this project reinforces the idea that **ChatGPT’s GUI is not
 > AI agents are most effective when treated as part of a **designed reasoning system**, not just queried through a UI. This project illustrates the importance of building clear workflows that allow agents to reason and act within structured, multi-step tasks.
 
 🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
+
