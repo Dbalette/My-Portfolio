@@ -52,6 +52,7 @@ This course introduces the concepts, processes, tools, and techniques of managem
 Students work in teams to simulate a real-world consulting engagement, developing critical thinking, listening, speaking, and written communication skills. A strong emphasis is placed on constructing consulting presentations and using data visualization best practices to communicate findings and client impact.
 
 This course is ideal for students interested in management consulting careers, as well as those in internal expert or advisory roles.
+
 ---
 
 More courses will be added as I progress through the program!
