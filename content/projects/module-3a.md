@@ -3,15 +3,9 @@
 title: "MSDS_Module-3A_ChatGPT_Chatbot"
 date: 2025-04-16
 draft: false
-weight: 1
+weight: 3
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
-
-Date: April 16, 2025  
-Course: MSDS 442 – Large Language Models  
-Tooling: LangChain, LangGraph, OpenAI (GPT-4o-mini), Tavily Search
-
-⸻
 
 📘 **Description**
 
