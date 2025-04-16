@@ -20,13 +20,13 @@ This project emphasizes the importance of creating well-structured workflows tha
 
 - **LLM Integration:** Uses OpenAI’s GPT-4o-mini model, integrated into a custom agent framework for conversational interactions and problem-solving.
 - **Agent Workflow:** Implements a four-step reasoning loop (Thought, Action, PAUSE, Observation), where the agent reflects, performs actions, and then outputs results based on observation.
-- **Dynamic Action Execution:** Allows the agent to perform tasks such as calculating values or retrieving data (e.g., average dog weights) by dynamically selecting available actions.
-- **Clear Reasoning and Output:** Provides transparency in the agent’s reasoning process by displaying structured thoughts and actions, followed by the observed results.
-- **Multi-step Problem Solving:** Demonstrates a complex task, like calculating the combined weight of three dogs, by using multiple steps and actions within the agent framework.
+- **Tool Use:** Dynamically retrieves or calculates information based on user input.
+- **Transparent Output:** Shows the agent’s logic and steps at each stage.
+- **Complex Task Handling:** Solves multi-step problems through sequential reasoning.
 
 ### 💡 Key Insight
 
-> This project reinforces that LLMs, when integrated within a structured agent-based workflow, become powerful tools for multi-step problem solving. Instead of using a simple query-response model, the agent foll$
+> LLMs become significantly more powerful when paired with structured agent workflows, enabling clear, multi-step problem solving—not just single-response answers.
    
 🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
 
