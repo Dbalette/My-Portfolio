@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Portfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>https://dbalette-ai-finance.netlify.app/</link>
     <description>Recent content on My Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dbalette-ai-finance.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MSDS_Module-1_ChatGPT_Integration-Translator.ipynb</title>
-      <link>http://localhost:1313/projects/github-project/</link>
+      <link>https://dbalette-ai-finance.netlify.app/projects/github-project/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/github-project/</guid>
+      <guid>https://dbalette-ai-finance.netlify.app/projects/github-project/</guid>
       <description>&lt;p&gt;📘 &lt;strong&gt;Description&lt;/strong&gt;&lt;br&gt;&#xA;This project demonstrates a modular approach to building a multilingual translator using the LangChain framework and OpenAI’s GPT-4o-mini model. Designed for the MSDS 442 course at Northwestern University, the script highlights secure API integration, prompt engineering, and real-time language translation using large language models (LLMs).&lt;/p&gt;&#xA;&lt;p&gt;More importantly, this project reinforces the idea that &lt;strong&gt;ChatGPT’s GUI is not designed to program business process workflows&lt;/strong&gt;. Instead, we must create explicit reasoning and action workflows — like flowcharts or algorithms — to guide AI agents. This is why we leverage frameworks such as &lt;strong&gt;LangChain&lt;/strong&gt;, &lt;strong&gt;LangGraph&lt;/strong&gt;, or &lt;strong&gt;LlamaIndex&lt;/strong&gt;, which act as bridges between our agent logic and the backend LLMs (e.g., OpenAI, Replicate, or Ollama).&lt;/p&gt;</description>
     </item>
     <item>
       <title>MSDS_Module-2_LLM_Integration_and_Workflows.ipynb</title>
-      <link>http://localhost:1313/projects/module-2/</link>
+      <link>https://dbalette-ai-finance.netlify.app/projects/module-2/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/module-2/</guid>
+      <guid>https://dbalette-ai-finance.netlify.app/projects/module-2/</guid>
       <description>&lt;p&gt;📘 &lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This project builds upon the concepts introduced in Module 1 by demonstrating a modular agent-based approach to leveraging large language models (LLMs) for multi-step problem-solving tasks. Designed for the MSDS 442 course at Northwestern University, the script showcases the integration of OpenAI’s GPT-4o-mini model within an agent framework that follows a structured reasoning process: Thought, Action, PAUSE, Observation. The agent handles complex tasks by invoking different actions, such as retrieving data or performing calculations, while maintaining clarity through explicit reasoning workflows.&lt;/p&gt;&#xA;&lt;p&gt;This project emphasizes the importance of creating well-structured workflows that allow AI agents to reason and act beyond simple queries, such as calculating the combined weight of multiple dogs. It highlights how tools like LangChain can be used to connect agent logic to backend LLMs, enabling the efficient execution of multi-step tasks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reading List</title>
-      <link>http://localhost:1313/reading/</link>
+      <link>https://dbalette-ai-finance.netlify.app/reading/</link>
       <pubDate>Wed, 02 Apr 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/reading/</guid>
+      <guid>https://dbalette-ai-finance.netlify.app/reading/</guid>
       <description>&lt;h2 id=&#34;-my-reading-list&#34;&gt;📖 My Reading List:&lt;/h2&gt;&#xA;&lt;h3 id=&#34;nosql-for-mere-mortals&#34;&gt;&lt;em&gt;NoSQL for Mere Mortals&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;p&gt;An accessible yet thorough exploration of NoSQL database models, this book helped me understand the trade-offs between relational and non-relational systems — essential when thinking about how to scale and structure real-time financial or AI-driven applications. I found it insightful for bridging the gap between traditional data management and the demands of unstructured, high-velocity data environments in AI workflows.&lt;/p&gt;&#xA;&lt;h3 id=&#34;seven-databases-in-seven-weeks&#34;&gt;&lt;em&gt;Seven Databases in Seven Weeks&lt;/em&gt;&lt;/h3&gt;&#xA;&lt;p&gt;This book provided a whirlwind tour of modern databases — from Redis to Neo4j — each suited to different data problems. I appreciated its practical, exploratory tone, which helped me think more critically about data architecture decisions in AI pipelines and how to align the right data model with the problem at hand, particularly in finance where transactional integrity, graph modeling, and time-series performance all matter.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:1313/posts/welcome/</link>
+      <link>https://dbalette-ai-finance.netlify.app/posts/welcome/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/welcome/</guid>
+      <guid>https://dbalette-ai-finance.netlify.app/posts/welcome/</guid>
       <description>&lt;p&gt;Welcome to my portfolio site! 🎉&lt;/p&gt;&#xA;&lt;p&gt;This is where I’ll be posting my projects as well as info &amp;amp; resources for the Northwestern MSDS community.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Join Me:&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://sps.northwestern.edu/masters/data-science/&#34;&gt;https://sps.northwestern.edu/masters/data-science/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://dbalette-ai-finance.netlify.app/about/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://dbalette-ai-finance.netlify.app/about/</guid>
       <description>&lt;p&gt;Hi, I’m currently pursuing a Master of Science in Data Science at Northwestern University 🎓&lt;/p&gt;&#xA;&lt;p&gt;My focus is on integrating data science, finance, and AI to solve complex problems and drive strategy.&lt;/p&gt;&#xA;&lt;p&gt;Before Northwestern, I earned a Master’s in Accounting from the Carlson School of Management at the University of Minnesota, and a Bachelor of Science in Accounting from the University of Nebraska–Lincoln. I’ve held finance leadership roles across multiple companies, including as a Finance Manager, where I built a foundation in strategic decision-making and cross-functional collaboration.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Courses</title>
-      <link>http://localhost:1313/courses/</link>
+      <link>https://dbalette-ai-finance.netlify.app/courses/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/</guid>
+      <guid>https://dbalette-ai-finance.netlify.app/courses/</guid>
       <description>&lt;h1 id=&#34;-courses-ive-taken&#34;&gt;📚 Courses I&amp;rsquo;ve Taken&lt;/h1&gt;&#xA;&lt;p&gt;Here’s a selection of graduate-level courses I’ve completed as part of the Master of Science in Data Science program at Northwestern University. Each course has played a role in building my expertise in data science, AI, and analytics.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;msds-442-dl-ai-agent-design-and-development&#34;&gt;MSDS 442-DL: AI Agent Design and Development&lt;/h2&gt;&#xA;&lt;p&gt;This applied AI course explores how to design, build, and deploy intelligent agents. Topics include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reason-and-act methods&lt;/li&gt;&#xA;&lt;li&gt;Finite state machines and agent architectures&lt;/li&gt;&#xA;&lt;li&gt;Intelligent prompting and goal-driven systems&lt;/li&gt;&#xA;&lt;li&gt;Human-in-the-loop workflows&lt;/li&gt;&#xA;&lt;li&gt;API integration and tool use&lt;/li&gt;&#xA;&lt;li&gt;Multi-agent systems with large language models&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The course is project-based and involves using open-source frameworks to build stateful, autonomous agents capable of completing complex, multi-step tasks.&lt;/p&gt;</description>
     </item>
   </channel>

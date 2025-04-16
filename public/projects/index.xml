@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Portfolio</title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content on My Portfolio</description>
+    <title>Projects on My Portfolio</title>
+    <link>https://dbalette-ai-finance.netlify.app/projects/</link>
+    <description>Recent content in Projects on My Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dbalette-ai-finance.netlify.app/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MSDS_Module-1_ChatGPT_Integration-Translator.ipynb</title>
-      <link>http://localhost:1313/projects/github-project/</link>
+      <link>https://dbalette-ai-finance.netlify.app/projects/github-project/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/github-project/</guid>
+      <guid>https://dbalette-ai-finance.netlify.app/projects/github-project/</guid>
       <description>&lt;p&gt;📘 &lt;strong&gt;Description&lt;/strong&gt;&lt;br&gt;&#xA;This project demonstrates a modular approach to building a multilingual translator using the LangChain framework and OpenAI’s GPT-4o-mini model. Designed for the MSDS 442 course at Northwestern University, the script highlights secure API integration, prompt engineering, and real-time language translation using large language models (LLMs).&lt;/p&gt;&#xA;&lt;p&gt;More importantly, this project reinforces the idea that &lt;strong&gt;ChatGPT’s GUI is not designed to program business process workflows&lt;/strong&gt;. Instead, we must create explicit reasoning and action workflows — like flowcharts or algorithms — to guide AI agents. This is why we leverage frameworks such as &lt;strong&gt;LangChain&lt;/strong&gt;, &lt;strong&gt;LangGraph&lt;/strong&gt;, or &lt;strong&gt;LlamaIndex&lt;/strong&gt;, which act as bridges between our agent logic and the backend LLMs (e.g., OpenAI, Replicate, or Ollama).&lt;/p&gt;</description>
     </item>
     <item>
       <title>MSDS_Module-2_LLM_Integration_and_Workflows.ipynb</title>
-      <link>http://localhost:1313/projects/module-2/</link>
+      <link>https://dbalette-ai-finance.netlify.app/projects/module-2/</link>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/module-2/</guid>
+      <guid>https://dbalette-ai-finance.netlify.app/projects/module-2/</guid>
       <description>&lt;p&gt;📘 &lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This project builds upon the concepts introduced in Module 1 by demonstrating a modular agent-based approach to leveraging large language models (LLMs) for multi-step problem-solving tasks. Designed for the MSDS 442 course at Northwestern University, the script showcases the integration of OpenAI’s GPT-4o-mini model within an agent framework that follows a structured reasoning process: Thought, Action, PAUSE, Observation. The agent handles complex tasks by invoking different actions, such as retrieving data or performing calculations, while maintaining clarity through explicit reasoning workflows.&lt;/p&gt;&#xA;&lt;p&gt;This project emphasizes the importance of creating well-structured workflows that allow AI agents to reason and act beyond simple queries, such as calculating the combined weight of multiple dogs. It highlights how tools like LangChain can be used to connect agent logic to backend LLMs, enabling the efficient execution of multi-step tasks.&lt;/p&gt;</description>
     </item>
   </channel>
