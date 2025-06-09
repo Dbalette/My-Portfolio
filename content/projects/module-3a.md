@@ -1,4 +1,3 @@
-
 ---
 title: "ChatGPT_Chatbot"
 date: 2025-04-16
@@ -9,22 +8,27 @@ link: "https://github.com/Dbalette/MSDS_Class_Work"
 
 📘 **Description**
 
-This project showcases the creation of a stateful, memory-enabled AI agent using the LangGraph framework from LangChain. Built as part of MSDS 442 at Northwestern, this tutorial walks through how to wire up a language model, connect external tools (like search), stream responses, and persist memory across conversation threads — all in one cohesive agent pipeline.
+This project implements a functional memory-enabled chatbot using LangChain, OpenAI’s GPT-4o-mini, and LangGraph's agent orchestration. It demonstrates how agents can reason and act in multiple steps, maintain session-based memory, and integrate with external tools for live information retrieval.
+
+<!--more-->
+
+The chatbot runs entirely in a Jupyter Notebook and supports both single-turn and multi-turn conversations with tool use, showcasing how LangGraph can structure conversational logic around external API access and memory state.
 
 ⸻
 
 ### 🔧 Features
 
-- **LLM Integration:** GPT-4o-mini via LangChain’s OpenAI wrapper  
-- **Tool Calling:** Integrated with Tavily’s search API for live web results  
-- **ReAct Agent Framework:** Uses LangGraph’s `create_react_agent()` to reason + act in steps  
-- **Memory Management:** Threaded memory via `MemorySaver` for multi-turn conversation flow  
-- **Streaming UX:** Live stream of responses and tokens for enhanced interactivity  
-- **Conversation Control:** Scoped sessions using `thread_id` to simulate new or continued chats  
+- **LangGraph Agent Executor:** Manages control flow and decision-making using a ReAct-style loop.
+- **Tavily Search Tool:** Allows the agent to fetch live web results during conversation.
+- **Threaded Memory:** Uses `MemorySaver` to persist user interactions across chat turns.
+- **Tool Use History:** Supports step-by-step breakdowns of tool calls and thought processes.
+- **Live Streaming UX:** Streams LLM output in real time for responsiveness.
+- **Session Control:** Each chat is scoped to a `thread_id` to preserve or isolate context.
 
 ⸻
 
 ### 💡 Key Insight
 
-> Even simple chatbots gain serious capability when you give them memory and tools. LangGraph’s modular structure makes it easy to go from stateless Q&A to dynamic agents that reason, act, recall, and respond — all while maintaining a clear UX.
+> The true power of conversational AI comes from embedding reasoning, retrieval, and memory into structured workflows. This chatbot is more than a UI — it’s a stateful autonomous agent, built with tools and traceability from the ground up.
+
 🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
