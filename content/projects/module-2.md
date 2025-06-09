@@ -1,5 +1,5 @@
 ---
-title: "MSDS_Module-2_LLM_Integration_and_Workflows.ipynb"
+title: "LLM_Integration_and_Workflows.ipynb"
 date: 2025-04-08
 draft: false
 weight: 2

@@ -1,5 +1,5 @@
 ---
-title: "MSDS_Module-1_ChatGPT_Integration-Translator.ipynb"
+title: "ChatGPT_Integration-Translator.ipynb"
 date: 2025-04-01
 draft: false
 weight: 1

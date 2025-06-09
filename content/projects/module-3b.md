@@ -1,5 +1,5 @@
 ---
-title: "MSDS_Module-3B_AI_Agent"
+title: "AI_Agent"
 date: 2025-04-16
 draft: false
 weight: 4
@@ -26,3 +26,4 @@ This project showcases the creation of a stateful, memory-enabled AI agent using
 ### 💡 Key Insight
 
 > Even simple chatbots gain serious capability when you give them memory and tools. LangGraph’s modular structure makes it easy to go from stateless Q&A to dynamic agents that reason, act, recall, and respond — all while maintaining a clear UX.
+🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)

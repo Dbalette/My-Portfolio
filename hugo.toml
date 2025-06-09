@@ -33,6 +33,6 @@ theme = "ananke"
   weight = 5
 
 [[menu.main]]
-  name = "Readings List"
+  name = "Reading List"
   url = "/reading/"
   weight = 6
