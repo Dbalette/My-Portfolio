@@ -12,8 +12,6 @@ Before Northwestern, I earned a Master’s in Accounting from the Carlson School
 
 I’ve had several eye-opening experiences that led me to believe we’re living through an **exponential growth curve**. I’m not exactly sure whether we’re at the beginning, the middle, or the end — I just know that we’re close. The thing about exponential growth is that **nothing seems to happen for a while... and then everything happens all at once**.
 
-That insight pushed me to rethink my trajectory and fully commit to the data revolution — not just watching it unfold, but actively shaping it.
-
 ---
 
 ### 🔍 Areas of Interest
