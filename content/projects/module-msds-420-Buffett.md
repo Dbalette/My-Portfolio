@@ -2,7 +2,7 @@
 title: "Virtual Buffett: AI Investment Advisor"
 date: 2025-06-08
 draft: false
-weight: 10
+weight: 19
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
 
