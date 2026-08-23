@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="page">
+  <div class="page-header">
+    {{ with .Section }}<p class="eyebrow">{{ . | humanize }}</p>{{ end }}
+    <h1>{{ .Title }}</h1>
+  </div>
+  <div class="prose">
+    {{ .Content }}
+  </div>
+  {{ with .Params.link }}
+    <a href="{{ . }}" class="external-link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+  {{ end }}
+</article>
+{{ end }}

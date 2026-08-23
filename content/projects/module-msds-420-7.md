@@ -6,8 +6,6 @@ weight: 16
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
 
-📘 **Description**
-
 This capstone assignment concludes the MSDS 420 Database Systems course with a comprehensive project that integrates database modeling, complex queries, and data-driven insights. Leveraging a normalized schema, the solution addresses advanced analytical tasks using SQL, visualizations, and narrative synthesis.
 
 <!--more-->
@@ -16,7 +14,7 @@ The final module demonstrates the culmination of relational theory and applied S
 
 ⸻
 
-### 🔧 Features
+### Features
 
 - **Normalized Schema Design:** Applies multi-table relationships with appropriate keys and referential integrity.
 - **Advanced SQL Queries:** Joins, aggregations, filters, and subqueries applied to generate actionable insights.
@@ -25,8 +23,8 @@ The final module demonstrates the culmination of relational theory and applied S
 
 ⸻
 
-### 💡 Key Insight
+### Key Insight
 
-> Effective database systems don’t just store information — they transform it into strategic knowledge. This project shows how schema design and query optimization support intelligent business decisions.
+> Effective database systems don’t just store information. They transform it into strategic knowledge. This project shows how schema design and query optimization support intelligent business decisions.
 
-🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
+[View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)

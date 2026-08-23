@@ -6,8 +6,6 @@ weight: 17
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
 
-📘 **Description**
-
 This project explores the use of EdgeDB to create a hybrid graph-relational schema for Yelp business and review data in Chicago. The module focuses on modeling complex relationships such as user-review-business interactions, and using EdgeQL to extract insights through recursive queries and filters.
 
 <!--more-->
@@ -16,7 +14,7 @@ Developed for the MSDS 420 course at Northwestern, the assignment applies modern
 
 ⸻
 
-### 🔧 Features
+### Features
 
 - **EdgeDB Modeling:** Defines object types and links to model Yelp businesses, users, reviews, and locations.
 - **Recursive Relationships:** Tracks influence of reviews across users and locations using recursive EdgeQL.
@@ -26,8 +24,8 @@ Developed for the MSDS 420 course at Northwestern, the assignment applies modern
 
 ⸻
 
-### 💡 Key Insight
+### Key Insight
 
-> EdgeDB’s hybrid model enables a more natural expression of real-world relationships, reducing the complexity of JOINs and enabling elegant recursive queries — a perfect fit for applications like Yelp.
+> EdgeDB’s hybrid model enables a more natural expression of real-world relationships, reducing the complexity of JOINs and enabling elegant recursive queries, a perfect fit for applications like Yelp.
 
-🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
+[View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)

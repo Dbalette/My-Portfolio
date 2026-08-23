@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LangGraph Orchestrated RAG Over Nike 10-K · Daniel Balette</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="wordmark">Daniel Balette</a>
+  <div class="navlinks">
+    
+      
+      <a href="/" class="">Home</a>
+    
+      
+      <a href="https://golden-donut-f73284.netlify.app/login" class="" target="_blank" rel="noopener">Clarity CFO</a>
+    
+      
+      <a href="/about/" class="">About</a>
+    
+      
+      <a href="https://www.linkedin.com/in/dan1492/" class="" target="_blank" rel="noopener">LinkedIn</a>
+    
+      
+      <a href="/projects/" class="">Projects</a>
+    
+      
+      <a href="/courses/" class="">Courses</a>
+    
+      
+      <a href="/reading/" class="">Reading List</a>
+    
+  </div>
+</nav>
+
+
+<article class="page">
+  <div class="page-header">
+    <p class="eyebrow">Projects</p>
+    <h1>LangGraph Orchestrated RAG Over Nike 10-K</h1>
+  </div>
+  <div class="prose">
+    <p>This project demonstrates a LangGraph-orchestrated Retrieval-Augmented Generation (RAG) system for intelligent querying of Nike’s 2023 10-K filing. It extends prior modules by introducing a <strong>graph-based control flow</strong>, allowing the app to analyze questions, retrieve relevant vector data using metadata filters, and generate structured responses, all as composable LangGraph nodes.</p>
+<p>This approach reflects a production-ready design for enterprise AI, combining semantic search, structured reasoning, and orchestration to deliver scalable, transparent question-answering pipelines.</p>
+<p>⸻</p>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>LangGraph Orchestration:</strong> Constructs a structured execution flow using LangGraph, where each step (query analysis retrieval generation) is defined as a node.</li>
+<li><strong>Mermaid Diagram Compatibility:</strong> Outputs the graph as a Mermaid diagram for inspection and transparency.</li>
+<li><strong>Checkpointed Memory:</strong> Supports state management between nodes with LangGraph’s <code>MemorySaver</code> for persistence and reproducibility.</li>
+<li><strong>Metadata-Filtered Search:</strong> Performs section-specific retrievals (e.g., only from “middle” of the document).</li>
+<li><strong>Modular Design:</strong> Each RAG component, from question parsing to chunk filtering to response generation, is encapsulated as a separate function node.</li>
+<li><strong>Prompt Customization:</strong> Uses minimal, safety-conscious RAG prompts for controlled output.</li>
+</ul>
+<p>⸻</p>
+<h3 id="key-insight">Key Insight</h3>
+<blockquote>
+<p>Orchestration is the secret to reliable AI systems. LangGraph makes it possible to coordinate retrieval, reasoning, and memory across steps, turning one-off queries into robust workflows and enabling LLMs to act as structured agents in dynamic environments.</p></blockquote>
+<p><a href="https://github.com/Dbalette/MSDS_Class_Work">View the source code on GitHub</a></p>
+  </div>
+  
+    <a href="https://github.com/Dbalette/MSDS_Class_Work" class="external-link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+  
+</article>
+
+<footer class="site-footer">
+  2026 Daniel Balette
+</footer>
+</body>
+</html>

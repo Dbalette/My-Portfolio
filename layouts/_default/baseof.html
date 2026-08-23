@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+{{ partial "head.html" . }}
+</head>
+<body>
+{{ partial "nav.html" . }}
+{{ block "main" . }}{{ end }}
+<footer class="site-footer">
+  {{ now.Year }} {{ .Site.Title }}
+</footer>
+</body>
+</html>

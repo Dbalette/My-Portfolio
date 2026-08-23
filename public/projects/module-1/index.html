@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChatGPT_Integration-Translator.ipynb · Daniel Balette</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="wordmark">Daniel Balette</a>
+  <div class="navlinks">
+    
+      
+      <a href="/" class="">Home</a>
+    
+      
+      <a href="https://golden-donut-f73284.netlify.app/login" class="" target="_blank" rel="noopener">Clarity CFO</a>
+    
+      
+      <a href="/about/" class="">About</a>
+    
+      
+      <a href="https://www.linkedin.com/in/dan1492/" class="" target="_blank" rel="noopener">LinkedIn</a>
+    
+      
+      <a href="/projects/" class="">Projects</a>
+    
+      
+      <a href="/courses/" class="">Courses</a>
+    
+      
+      <a href="/reading/" class="">Reading List</a>
+    
+  </div>
+</nav>
+
+
+<article class="page">
+  <div class="page-header">
+    <p class="eyebrow">Projects</p>
+    <h1>ChatGPT_Integration-Translator.ipynb</h1>
+  </div>
+  <div class="prose">
+    <p>This project demonstrates a modular approach to building a multilingual translator using the LangChain framework and OpenAI’s GPT-4o-mini model. Designed for the MSDS 442 course at Northwestern University, the script highlights secure API integration, prompt engineering, and real-time language translation using large language models (LLMs).</p>
+<p>More importantly, this project reinforces the idea that <strong>ChatGPT’s GUI is not designed to program business process workflows</strong>. Instead, we must create explicit reasoning and action workflows, like flowcharts or algorithms, to guide AI agents. This is why we leverage frameworks such as <strong>LangChain</strong>, <strong>LangGraph</strong>, or <strong>LlamaIndex</strong>, which act as bridges between our agent logic and the backend LLMs (e.g., OpenAI, Replicate, or Ollama).</p>
+<hr>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Secure Environment Setup:</strong> Uses <code>os</code> and <code>getpass</code> to securely manage API keys for OpenAI, LangChain, and Tavily, avoiding hard-coded credentials.</li>
+<li><strong>LLM Integration:</strong> Initializes a GPT-4o-mini chat model via LangChain’s <code>ChatOpenAI</code> class for efficient, conversational interactions.</li>
+<li><strong>Prompt Engineering:</strong> Dynamically constructs system and user prompts using <code>PromptTemplate</code>, guiding the model to translate text between languages.</li>
+<li><strong>Interactive Workflow:</strong> Accepts user-defined source/target languages and phrases, fills the prompt templates with those inputs, and invokes the model.</li>
+<li><strong>Clear Output:</strong> Displays both the final structured prompt and the model’s translation, giving full transparency into the LLM&rsquo;s decision-making process.</li>
+</ul>
+<hr>
+<h3 id="key-insight">Key Insight</h3>
+<blockquote>
+<p>AI agents are most effective when treated as part of a <strong>designed reasoning system</strong>, not just queried through a UI. This project illustrates the importance of building clear workflows that allow agents to reason and act within structured, multi-step tasks.</p></blockquote>
+<p><a href="https://github.com/Dbalette/MSDS_Class_Work">View the source code on GitHub</a></p>
+
+  </div>
+  
+    <a href="https://github.com/Dbalette/MSDS_Class_Work" class="external-link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+  
+</article>
+
+<footer class="site-footer">
+  2026 Daniel Balette
+</footer>
+</body>
+</html>

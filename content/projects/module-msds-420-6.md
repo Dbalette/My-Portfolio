@@ -6,17 +6,15 @@ weight: 15
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
 
-📘 **Description**
-
 This project builds on foundational database skills by executing advanced SQL queries and performing exploratory data analysis using real-world Yelp Chicago business and review datasets. It covers join logic, subqueries, filtering, aggregation, and basic statistical analysis directly within SQL.
 
 <!--more-->
 
-Developed as part of the MSDS 420 course at Northwestern University, the assignment demonstrates how SQL can drive business insights from complex data models — a key skill for any data analyst or data scientist working with structured data sources.
+Developed as part of the MSDS 420 course at Northwestern University, the assignment demonstrates how SQL can drive business insights from complex data models, a key skill for any data analyst or data scientist working with structured data sources.
 
 ⸻
 
-### 🔧 Features
+### Features
 
 - **Schema Mapping:** Explores entity relationships in the Yelp dataset using foreign keys and joins.
 - **SQL Querying:** Demonstrates filtering, aggregation, grouping, and ordering to surface business intelligence.
@@ -26,8 +24,8 @@ Developed as part of the MSDS 420 course at Northwestern University, the assignm
 
 ⸻
 
-### 💡 Key Insight
+### Key Insight
 
-> SQL isn’t just for CRUD — it’s an exploratory and analytical language when used fluently. This module shows how to generate insights directly within the database layer, minimizing the need for data export or transformation.
+> SQL isn’t just for CRUD. It’s an exploratory and analytical language when used fluently. This module shows how to generate insights directly within the database layer, minimizing the need for data export or transformation.
 
-🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
+[View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)

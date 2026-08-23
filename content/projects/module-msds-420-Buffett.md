@@ -6,17 +6,15 @@ weight: 19
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
 
-📘 **Description**
-
 This project introduces a custom-built AI agent inspired by Warren Buffett’s investing principles. Named “Virtual Buffett,” the assistant integrates LangChain, LangGraph, Milvus vector search, and OpenAI’s GPT-4o-mini. Developed for the MSDS 442 course at Northwestern University, the agent retrieves information from Buffett’s shareholder letters and offers context-aware investment insights using a Buffett-style persona.
 
 <!--more-->
 
-The assistant blends long-term memory (Milvus), real-time tools (like FRED and Tavily), and a custom persona to emulate Buffett’s plainspoken wisdom and investment philosophy — making it suitable for financial education, decision support, and investor engagement use cases.
+The assistant blends long-term memory (Milvus), real-time tools (like FRED and Tavily), and a custom persona to emulate Buffett’s plainspoken wisdom and investment philosophy, making it suitable for financial education, decision support, and investor engagement use cases.
 
 ⸻
 
-### 🔧 Features
+### Features
 
 - **Buffett Persona:** Customized prompt engineering using 15 distilled Buffett principles.
 - **Vector Search with Milvus:** Embeds and indexes all shareholder letters from 1977–2023.
@@ -27,8 +25,8 @@ The assistant blends long-term memory (Milvus), real-time tools (like FRED and T
 
 ⸻
 
-### 💡 Key Insight
+### Key Insight
 
-> Virtual Buffett demonstrates how an LLM-based agent can emulate human investment reasoning by retrieving real-world evidence, applying structured principles, and offering interpretable, long-term-focused responses. The project shows that AI personas built on domain-specific corpora can deliver personalized, expert-level guidance — without hallucination.
+> Virtual Buffett demonstrates how an LLM-based agent can emulate human investment reasoning by retrieving real-world evidence, applying structured principles, and offering interpretable, long-term-focused responses. The project shows that AI personas built on domain-specific corpora can deliver personalized, expert-level guidance, without hallucination.
 
-🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
+[View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)

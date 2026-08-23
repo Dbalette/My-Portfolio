@@ -6,8 +6,6 @@ weight: 3
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
 
-📘 **Description**
-
 This project implements a functional memory-enabled chatbot using LangChain, OpenAI’s GPT-4o-mini, and LangGraph's agent orchestration. It demonstrates how agents can reason and act in multiple steps, maintain session-based memory, and integrate with external tools for live information retrieval.
 
 <!--more-->
@@ -16,7 +14,7 @@ The chatbot runs entirely in a Jupyter Notebook and supports both single-turn an
 
 ⸻
 
-### 🔧 Features
+### Features
 
 - **LangGraph Agent Executor:** Manages control flow and decision-making using a ReAct-style loop.
 - **Tavily Search Tool:** Allows the agent to fetch live web results during conversation.
@@ -27,8 +25,8 @@ The chatbot runs entirely in a Jupyter Notebook and supports both single-turn an
 
 ⸻
 
-### 💡 Key Insight
+### Key Insight
 
-> The true power of conversational AI comes from embedding reasoning, retrieval, and memory into structured workflows. This chatbot is more than a UI — it’s a stateful autonomous agent, built with tools and traceability from the ground up.
+> The true power of conversational AI comes from embedding reasoning, retrieval, and memory into structured workflows. This chatbot is more than a UI. It’s a stateful autonomous agent, built with tools and traceability from the ground up.
 
-🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
+[View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)

@@ -6,8 +6,6 @@ weight: 14
 link: "https://github.com/Dbalette/MSDS_Class_Work"
 ---
 
-📘 **Description**
-
 This project uses EdgeDB to explore graph-relational modeling and querying on a Yelp business and review dataset from Chicago. It focuses on modeling relationships among users, businesses, and reviews to uncover insights about customer sentiment and local engagement patterns.
 
 <!--more-->
@@ -16,7 +14,7 @@ Developed as part of the MSDS 420 course at Northwestern University, this work d
 
 ⸻
 
-### 🔧 Features
+### Features
 
 - **Schema Design:** Defines a normalized graph schema using `Link` and `Multi-Link` types in EdgeDB.
 - **Data Ingestion:** Loads CSV data into EdgeDB, transforming flat rows into a connected object model.
@@ -25,8 +23,8 @@ Developed as part of the MSDS 420 course at Northwestern University, this work d
 
 ⸻
 
-### 💡 Key Insight
+### Key Insight
 
 > Graph-relational databases like EdgeDB blend the structure of SQL with the expressiveness of graph queries, enabling deeper insights from naturally connected datasets such as customer reviews.
 
-🔗 [View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)
+[View the source code on GitHub](https://github.com/Dbalette/MSDS_Class_Work)

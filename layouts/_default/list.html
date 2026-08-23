@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="page">
+  <div class="page-header">
+    <p class="eyebrow">{{ .Section | default "Section" | humanize }}</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  <div class="project-grid">
+    {{ range (sort .Pages ".Params.weight") }}
+      <a href="{{ .RelPermalink }}" class="project-card">
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Summary | plainify | truncate 110 }}</p>
+      </a>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

@@ -1,6 +1,6 @@
 baseURL = "https://dbalette-ai-finance.netlify.app"
 languageCode = "en-us"
-title = "My Portfolio"
+title = "Daniel Balette"
 theme = "ananke"
 
 [params]
@@ -14,7 +14,7 @@ theme = "ananke"
 
 [[menu.main]]
   name = "Clarity CFO"
-  url = "https://golden-donut-f73284.netlify.app"
+  url = "https://golden-donut-f73284.netlify.app/login"
   weight = 2
 
 [[menu.main]]

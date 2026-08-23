@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semantic Search Over Nike 10-K (Part 2) · Daniel Balette</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="wordmark">Daniel Balette</a>
+  <div class="navlinks">
+    
+      
+      <a href="/" class="">Home</a>
+    
+      
+      <a href="https://golden-donut-f73284.netlify.app/login" class="" target="_blank" rel="noopener">Clarity CFO</a>
+    
+      
+      <a href="/about/" class="">About</a>
+    
+      
+      <a href="https://www.linkedin.com/in/dan1492/" class="" target="_blank" rel="noopener">LinkedIn</a>
+    
+      
+      <a href="/projects/" class="">Projects</a>
+    
+      
+      <a href="/courses/" class="">Courses</a>
+    
+      
+      <a href="/reading/" class="">Reading List</a>
+    
+  </div>
+</nav>
+
+
+<article class="page">
+  <div class="page-header">
+    <p class="eyebrow">Projects</p>
+    <h1>Semantic Search Over Nike 10-K (Part 2)</h1>
+  </div>
+  <div class="prose">
+    <p>This project enhances the Nike 10-K semantic search pipeline by introducing structured metadata filters and query rewriting capabilities. It moves beyond simple similarity search by allowing users to ask targeted questions tied to specific sections of the document (e.g., &ldquo;beginning&rdquo;, &ldquo;middle&rdquo;, &ldquo;end&rdquo;).</p>
+<p>Built with LangChain, GPT-4o-mini, and Chroma, this implementation applies Pydantic schemas to capture structured queries and leverages LangChain’s structured output features for cleaner, more precise retrieval.</p>
+<p>⸻</p>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Metadata Tagging:</strong> Adds semantic tags (e.g., <code>section = beginning</code>) during document chunking for more controlled retrieval.</li>
+<li><strong>Structured Query Rewriting:</strong> Converts free-form questions into structured metadata queries using <code>with_structured_output()</code> and a custom Pydantic schema.</li>
+<li><strong>Filtered Retrieval:</strong> Narrows down search results to specific vector subsets based on structured metadata.</li>
+<li><strong>Chroma Integration:</strong> Demonstrates how to apply metadata filters directly in a vector database.</li>
+<li><strong>Improved RAG Precision:</strong> Reduces noise and boosts relevance for complex enterprise documents.</li>
+</ul>
+<p>⸻</p>
+<h3 id="key-insight">Key Insight</h3>
+<blockquote>
+<p>Structured retrieval is the missing link between raw vector search and truly useful AI. By adding metadata and rewriting queries to align with document structure, you increase both precision and interpretability, two key traits of trustworthy AI systems.</p></blockquote>
+<p><a href="https://github.com/Dbalette/MSDS_Class_Work">View the source code on GitHub</a></p>
+  </div>
+  
+    <a href="https://github.com/Dbalette/MSDS_Class_Work" class="external-link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+  
+</article>
+
+<footer class="site-footer">
+  2026 Daniel Balette
+</footer>
+</body>
+</html>
