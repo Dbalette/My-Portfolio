@@ -2,21 +2,47 @@
 <section class="hero">
   <p class="kicker">Data science · Northwestern MSDS</p>
   <h1>Building tools that make financial data legible.</h1>
-  <p class="lede">I'm a Master's candidate in Data Science at Northwestern, currently building Clarity CFO, a virtual CFO for small businesses and public-market investors.</p>
+  <p class="lede">I'm a Master's candidate in Data Science at Northwestern, currently building Clarity CFO. It's an affordable, intelligent financial copilot for small, owner-operated businesses and micro-nonprofits that don't have access to a financial analyst or CFO.</p>
   <a href="https://golden-donut-f73284.netlify.app/login" class="cta">See Clarity CFO &rarr;</a>
 </section>
 
 <section class="page" style="padding-top: 0;">
   <div class="page-header">
-    <p class="eyebrow">Recent coursework</p>
-    <h1>Projects</h1>
+    <p class="eyebrow">Shipped and published</p>
+    <h1>Products</h1>
   </div>
-  <div class="project-grid">
-    {{ $projects := where site.RegularPages "Section" "projects" }}
-    {{ range first 6 (sort $projects ".Params.weight") }}
-      <a href="{{ .RelPermalink }}" class="project-card">
-        <h3>{{ .Title }}</h3>
-        <p>{{ .Summary | plainify | truncate 110 }}</p>
+  <div class="product-grid">
+    {{ $products := slice
+      (dict
+        "name" "Arizona Water Watch"
+        "platform" "iOS · App Store"
+        "description" "An interpretation-first water app for Arizona - reservoirs, groundwater, rivers, drought, and snowpack, with the context behind the numbers, not just the raw data."
+        "image" "/products/arizona-water-watch.jpg"
+        "url" "https://apps.apple.com/us/app/arizona-water-watch/id6797727942"
+      )
+      (dict
+        "name" "MPLS Crime Watch"
+        "platform" "iOS · App Store"
+        "description" "Turns Minneapolis public-safety data into a live, mapped picture of what's happening nearby - heat maps, incident filters, and proximity alerts."
+        "image" "/products/mpls-crime-watch.jpg"
+        "url" "https://apps.apple.com/us/app/mpls-crime-watch/id6796348759"
+      )
+      (dict
+        "name" "Leverage & Lag"
+        "platform" "Book · Kindle, hardcover, paperback"
+        "description" "How AI, automation, and accelerated change are reshaping work and power - a clear-eyed look at the structural shift already underway inside the modern economy."
+        "image" "/products/leverage-and-lag.jpg"
+        "url" "https://www.amazon.com/dp/B0GNPMWX2K"
+      )
+    }}
+    {{ range $products }}
+      <a href="{{ .url }}" class="product-card" target="_blank" rel="noopener">
+        <img src="{{ .image }}" alt="{{ .name }}" class="product-card-image">
+        <div class="product-card-body">
+          <h3>{{ .name }}</h3>
+          <p class="product-card-platform">{{ .platform }}</p>
+          <p>{{ .description }}</p>
+        </div>
       </a>
     {{ end }}
   </div>
