@@ -14,7 +14,7 @@ theme = "ananke"
 
 [[menu.main]]
   name = "Clarity CFO"
-  url = "https://golden-donut-f73284.netlify.app/login"
+  url = "https://clarity-cfo.netlify.app/login"
   weight = 2
 
 [[menu.main]]
