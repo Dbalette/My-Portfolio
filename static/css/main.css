@@ -92,8 +92,8 @@ img {
 
 /* ---- Hero (homepage only) ---- */
 .hero {
-  padding: 72px 32px 56px;
-  max-width: 860px;
+  padding: 72px 48px 56px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -145,9 +145,9 @@ img {
 
 /* ---- Page / content ---- */
 .page {
-  max-width: 860px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 56px 32px 80px;
+  padding: 56px 48px 80px;
 }
 
 .page-header {
