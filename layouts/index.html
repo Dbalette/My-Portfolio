@@ -19,6 +19,7 @@
         "description" "An interpretation-first water app for Arizona - reservoirs, groundwater, rivers, drought, and snowpack, with the context behind the numbers, not just the raw data."
         "image" "/products/arizona-water-watch.jpg"
         "url" "https://apps.apple.com/us/app/arizona-water-watch/id6797727942"
+        "isAppIcon" true
       )
       (dict
         "name" "MPLS Crime Watch"
@@ -26,6 +27,7 @@
         "description" "Turns Minneapolis public-safety data into a live, mapped picture of what's happening nearby - heat maps, incident filters, and proximity alerts."
         "image" "/products/mpls-crime-watch.jpg"
         "url" "https://apps.apple.com/us/app/mpls-crime-watch/id6796348759"
+        "isAppIcon" true
       )
       (dict
         "name" "Leverage & Lag"
@@ -33,11 +35,12 @@
         "description" "How AI, automation, and accelerated change are reshaping work and power - a clear-eyed look at the structural shift already underway inside the modern economy."
         "image" "/products/leverage-and-lag.jpg"
         "url" "https://www.amazon.com/dp/B0GNPMWX2K"
+        "isAppIcon" false
       )
     }}
     {{ range $products }}
       <a href="{{ .url }}" class="product-card" target="_blank" rel="noopener">
-        <img src="{{ .image }}" alt="{{ .name }}" class="product-card-image">
+        <img src="{{ .image }}" alt="{{ .name }}" class="product-card-image{{ if .isAppIcon }} product-card-image--icon{{ end }}">
         <div class="product-card-body">
           <h3>{{ .name }}</h3>
           <p class="product-card-platform">{{ .platform }}</p>
