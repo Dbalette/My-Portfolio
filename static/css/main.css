@@ -301,9 +301,24 @@ img {
 }
 
 .product-card-image {
+  display: block;
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  /* Book cover art (Leverage & Lag) is a tall portrait image force-fit
+     into this square frame - object-fit: cover's default center crop
+     was cutting the title off the top, where a book cover's own title
+     always sits. Anchoring the crop to the top keeps it in frame; for
+     the two app icons (already close to square) this shifts nothing
+     visible. */
+  object-position: top;
+  /* The app icon source files carry their own baked-in rounded-corner
+     mask on a white (not transparent) background, a sliver of which
+     still showed inside this frame's edge even though the card itself
+     clips to a rounded corner - a small scale-up pushes that white
+     sliver outside the visible frame instead of trying to match its
+     unknown exact corner radius. */
+  transform: scale(1.06);
   background: var(--ink-850);
 }
 
