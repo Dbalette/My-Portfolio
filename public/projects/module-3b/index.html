@@ -1,77 +1,8 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Conversational AI Chatbot with Memory · Daniel Balette</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/main.css">
-
-</head>
-<body>
-<nav class="site-nav">
-  <a href="/" class="wordmark">Daniel Balette</a>
-  <div class="navlinks">
-    
-      
-      <a href="/" class="">Home</a>
-    
-      
-      <a href="https://clarity-cfo.netlify.app/login" class="" target="_blank" rel="noopener">Clarity CFO</a>
-    
-      
-      <a href="/about/" class="">About</a>
-    
-      
-      <a href="https://www.linkedin.com/in/dan1492/" class="" target="_blank" rel="noopener">LinkedIn</a>
-    
-      
-      <a href="/projects/" class="">Projects</a>
-    
-      
-      <a href="/courses/" class="">Courses</a>
-    
-      
-      <a href="/reading/" class="">Reading List</a>
-    
-  </div>
-</nav>
-
-
-<article class="page">
-  <div class="page-header">
-    <p class="eyebrow">Projects</p>
-    <h1>Conversational AI Chatbot with Memory</h1>
-  </div>
-  <div class="prose">
-    <p>This project implements a dynamic, memory-enabled conversational agent that interacts over multiple turns, reasons through ReAct, and streams its thought process using LangGraph and GPT-4o-mini. Built within a Jupyter Notebook, the assistant simulates natural conversation with embedded search capabilities and message-based memory.</p>
-<p>The chatbot uses LangChain&rsquo;s tool-calling logic with Tavily for real-time web answers, scoped <code>thread_id</code> sessions for memory isolation, and a LangGraph agent executor to perform reasoning and retrieval steps transparently.</p>
-<p>⸻</p>
-<h3 id="features">Features</h3>
-<ul>
-<li><strong>Agent Executor (LangGraph):</strong> Structured loop for reasoning, tool use, and memory recall.</li>
-<li><strong>Tavily Tool:</strong> Live web results fetched automatically through natural language queries.</li>
-<li><strong>Threaded Memory:</strong> Conversation history stored using <code>MemorySaver</code> for scoped sessions.</li>
-<li><strong>Token Streaming:</strong> Displays LLM responses in real time for enhanced UX.</li>
-<li><strong>Tool Observation:</strong> Logs intermediate thoughts and results for explainability.</li>
-<li><strong>Session ID Control:</strong> Allows multiple chats without memory overlap using <code>thread_id</code>.</li>
-</ul>
-<p>⸻</p>
-<h3 id="key-insight">Key Insight</h3>
-<blockquote>
-<p>Chatbots become far more powerful when they reason step by step, track what’s been said, and know when to search. This project demonstrates that stateful, tool-augmented chat interfaces are the future of intelligent assistants.</p></blockquote>
-<p><a href="https://github.com/Dbalette/MSDS_Class_Work">View the source code on GitHub</a></p>
-  </div>
-  
-    <a href="https://github.com/Dbalette/MSDS_Class_Work" class="external-link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
-  
-</article>
-
-<footer class="site-footer">
-  2026 Daniel Balette
-</footer>
-</body>
-</html>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Conversational AI Chatbot with Memory · Daniel Balette</title>
+<link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel=stylesheet><link rel=stylesheet href=/css/main.css></head><body><nav class=site-nav><a href=/ class=wordmark>Daniel Balette</a><div class=navlinks><a href=/>Home</a>
+<a href=https://clarity-cfo.netlify.app/login target=_blank rel=noopener>Clarity CFO</a>
+<a href=/about/>About</a>
+<a href=https://www.linkedin.com/in/dan1492/ target=_blank rel=noopener>LinkedIn</a>
+<a href=/projects/>Projects</a>
+<a href=/courses/>Courses</a>
+<a href=/reading/>Reading List</a></div></nav><article class=page><div class=page-header><p class=eyebrow>Projects</p><h1>Conversational AI Chatbot with Memory</h1></div><div class=prose><p>This project implements a dynamic, memory-enabled conversational agent that interacts over multiple turns, reasons through ReAct, and streams its thought process using LangGraph and GPT-4o-mini. Built within a Jupyter Notebook, the assistant simulates natural conversation with embedded search capabilities and message-based memory.</p><p>The chatbot uses LangChain&rsquo;s tool-calling logic with Tavily for real-time web answers, scoped <code>thread_id</code> sessions for memory isolation, and a LangGraph agent executor to perform reasoning and retrieval steps transparently.</p><p>⸻</p><h3 id=features>Features</h3><ul><li><strong>Agent Executor (LangGraph):</strong> Structured loop for reasoning, tool use, and memory recall.</li><li><strong>Tavily Tool:</strong> Live web results fetched automatically through natural language queries.</li><li><strong>Threaded Memory:</strong> Conversation history stored using <code>MemorySaver</code> for scoped sessions.</li><li><strong>Token Streaming:</strong> Displays LLM responses in real time for enhanced UX.</li><li><strong>Tool Observation:</strong> Logs intermediate thoughts and results for explainability.</li><li><strong>Session ID Control:</strong> Allows multiple chats without memory overlap using <code>thread_id</code>.</li></ul><p>⸻</p><h3 id=key-insight>Key Insight</h3><blockquote><p>Chatbots become far more powerful when they reason step by step, track what’s been said, and know when to search. This project demonstrates that stateful, tool-augmented chat interfaces are the future of intelligent assistants.</p></blockquote><p><a href=https://github.com/Dbalette/MSDS_Class_Work>View the source code on GitHub</a></p></div><a href=https://github.com/Dbalette/MSDS_Class_Work class=external-link target=_blank rel=noopener>View on GitHub &rarr;</a></article><footer class=site-footer>2026 Daniel Balette</footer></body></html>
