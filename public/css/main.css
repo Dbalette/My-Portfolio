@@ -304,21 +304,17 @@ img {
   display: block;
   width: 100%;
   aspect-ratio: 1 / 1;
-  object-fit: cover;
-  /* Book cover art (Leverage & Lag) is a tall portrait image force-fit
-     into this square frame - object-fit: cover's default center crop
-     was cutting the title off the top, where a book cover's own title
-     always sits. Anchoring the crop to the top keeps it in frame; for
-     the two app icons (already close to square) this shifts nothing
-     visible. */
-  object-position: top;
-  /* The app icon source files carry their own baked-in rounded-corner
-     mask on a white (not transparent) background, a sliver of which
-     still showed inside this frame's edge even though the card itself
-     clips to a rounded corner - a small scale-up pushes that white
-     sliver outside the visible frame instead of trying to match its
-     unknown exact corner radius. */
-  transform: scale(1.06);
+  /* contain, not cover - Leverage & Lag's cover art is a tall portrait
+     image, and cropping it to fill a square frame cut off real content
+     (the byline, at minimum). The two app icons are already square, so
+     contain fills their frame exactly with no visible change; the book
+     cover letterboxes on the sides instead of losing any of itself.
+     The app icon source files are pre-cropped (see the download/crop
+     step that produced them) to remove Apple's own baked-in rounded-
+     corner mask - a scale-up hack was tried here first to hide that
+     mask's white sliver, but a fixed percentage couldn't reliably
+     clear a corner radius that varies per icon. */
+  object-fit: contain;
   background: var(--ink-850);
 }
 

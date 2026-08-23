@@ -1,8 +1,77 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Semantic Search Over Nike 10-K (Part 1) · Daniel Balette</title>
-<link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel=stylesheet><link rel=stylesheet href=/css/main.css></head><body><nav class=site-nav><a href=/ class=wordmark>Daniel Balette</a><div class=navlinks><a href=/>Home</a>
-<a href=https://clarity-cfo.netlify.app/login target=_blank rel=noopener>Clarity CFO</a>
-<a href=/about/>About</a>
-<a href=https://www.linkedin.com/in/dan1492/ target=_blank rel=noopener>LinkedIn</a>
-<a href=/projects/>Projects</a>
-<a href=/courses/>Courses</a>
-<a href=/reading/>Reading List</a></div></nav><article class=page><div class=page-header><p class=eyebrow>Projects</p><h1>Semantic Search Over Nike 10-K (Part 1)</h1></div><div class=prose><p>This project demonstrates how to build a basic semantic search engine over a real-world 10-K corporate filing. It serves as the foundation for more advanced retrieval-augmented generation (RAG) systems, showcasing how to move from unstructured PDF text to meaningful, queryable insights.</p><p>Developed for the MSDS 442 course at Northwestern, this first iteration emphasizes core skills in document ingestion, embedding, and vector similarity querying using LangChain and GPT-4o-mini.</p><p>⸻</p><h3 id=features>Features</h3><ul><li><strong>PDF Ingestion:</strong> Uses <code>PyPDFLoader</code> to extract and structure raw text from Nike’s 10-K filing.</li><li><strong>Chunking:</strong> Splits content into manageable pieces using <code>RecursiveCharacterTextSplitter</code>.</li><li><strong>Embedding & Storage:</strong> Transforms text into embeddings with OpenAI and stores them in a Chroma vectorstore.</li><li><strong>Semantic Search:</strong> Supports question-based search with ranked similarity scores.</li><li><strong>Retriever Construction:</strong> Compares default and custom retriever approaches for document relevance.</li><li><strong>Batch Querying:</strong> Demonstrates LangChain’s <code>Runnable</code> pipelines for efficient multi-query handling.</li></ul><p>⸻</p><h3 id=key-insight>Key Insight</h3><blockquote><p>AI applications that rely on information retrieval should treat LLMs not as oracles, but as reasoning layers on top of curated memory. This project shows how to build that memory effectively.</p></blockquote><p><a href=https://github.com/Dbalette/MSDS_Class_Work>View the source code on GitHub</a></p></div><a href=https://github.com/Dbalette/MSDS_Class_Work class=external-link target=_blank rel=noopener>View on GitHub &rarr;</a></article><footer class=site-footer>2026 Daniel Balette</footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semantic Search Over Nike 10-K (Part 1) · Daniel Balette</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="wordmark">Daniel Balette</a>
+  <div class="navlinks">
+    
+      
+      <a href="/" class="">Home</a>
+    
+      
+      <a href="https://clarity-cfo.netlify.app/login" class="" target="_blank" rel="noopener">Clarity CFO</a>
+    
+      
+      <a href="/about/" class="">About</a>
+    
+      
+      <a href="https://www.linkedin.com/in/dan1492/" class="" target="_blank" rel="noopener">LinkedIn</a>
+    
+      
+      <a href="/projects/" class="">Projects</a>
+    
+      
+      <a href="/courses/" class="">Courses</a>
+    
+      
+      <a href="/reading/" class="">Reading List</a>
+    
+  </div>
+</nav>
+
+
+<article class="page">
+  <div class="page-header">
+    <p class="eyebrow">Projects</p>
+    <h1>Semantic Search Over Nike 10-K (Part 1)</h1>
+  </div>
+  <div class="prose">
+    <p>This project demonstrates how to build a basic semantic search engine over a real-world 10-K corporate filing. It serves as the foundation for more advanced retrieval-augmented generation (RAG) systems, showcasing how to move from unstructured PDF text to meaningful, queryable insights.</p>
+<p>Developed for the MSDS 442 course at Northwestern, this first iteration emphasizes core skills in document ingestion, embedding, and vector similarity querying using LangChain and GPT-4o-mini.</p>
+<p>⸻</p>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>PDF Ingestion:</strong> Uses <code>PyPDFLoader</code> to extract and structure raw text from Nike’s 10-K filing.</li>
+<li><strong>Chunking:</strong> Splits content into manageable pieces using <code>RecursiveCharacterTextSplitter</code>.</li>
+<li><strong>Embedding &amp; Storage:</strong> Transforms text into embeddings with OpenAI and stores them in a Chroma vectorstore.</li>
+<li><strong>Semantic Search:</strong> Supports question-based search with ranked similarity scores.</li>
+<li><strong>Retriever Construction:</strong> Compares default and custom retriever approaches for document relevance.</li>
+<li><strong>Batch Querying:</strong> Demonstrates LangChain’s <code>Runnable</code> pipelines for efficient multi-query handling.</li>
+</ul>
+<p>⸻</p>
+<h3 id="key-insight">Key Insight</h3>
+<blockquote>
+<p>AI applications that rely on information retrieval should treat LLMs not as oracles, but as reasoning layers on top of curated memory. This project shows how to build that memory effectively.</p></blockquote>
+<p><a href="https://github.com/Dbalette/MSDS_Class_Work">View the source code on GitHub</a></p>
+  </div>
+  
+    <a href="https://github.com/Dbalette/MSDS_Class_Work" class="external-link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+  
+</article>
+
+<footer class="site-footer">
+  2026 Daniel Balette
+</footer>
+</body>
+</html>

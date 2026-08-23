@@ -1,8 +1,77 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Virtual Buffett: AI Investment Advisor · Daniel Balette</title>
-<link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel=stylesheet><link rel=stylesheet href=/css/main.css></head><body><nav class=site-nav><a href=/ class=wordmark>Daniel Balette</a><div class=navlinks><a href=/>Home</a>
-<a href=https://clarity-cfo.netlify.app/login target=_blank rel=noopener>Clarity CFO</a>
-<a href=/about/>About</a>
-<a href=https://www.linkedin.com/in/dan1492/ target=_blank rel=noopener>LinkedIn</a>
-<a href=/projects/>Projects</a>
-<a href=/courses/>Courses</a>
-<a href=/reading/>Reading List</a></div></nav><article class=page><div class=page-header><p class=eyebrow>Projects</p><h1>Virtual Buffett: AI Investment Advisor</h1></div><div class=prose><p>This project introduces a custom-built AI agent inspired by Warren Buffett’s investing principles. Named “Virtual Buffett,” the assistant integrates LangChain, LangGraph, Milvus vector search, and OpenAI’s GPT-4o-mini. Developed for the MSDS 442 course at Northwestern University, the agent retrieves information from Buffett’s shareholder letters and offers context-aware investment insights using a Buffett-style persona.</p><p>The assistant blends long-term memory (Milvus), real-time tools (like FRED and Tavily), and a custom persona to emulate Buffett’s plainspoken wisdom and investment philosophy, making it suitable for financial education, decision support, and investor engagement use cases.</p><p>⸻</p><h3 id=features>Features</h3><ul><li><strong>Buffett Persona:</strong> Customized prompt engineering using 15 distilled Buffett principles.</li><li><strong>Vector Search with Milvus:</strong> Embeds and indexes all shareholder letters from 1977–2023.</li><li><strong>Tool Use:</strong> Includes FRED API for economic data, Tavily for web results, and FMCSA lookup for fundamentals.</li><li><strong>Long-Term Memory:</strong> Stores structured conversation history using SQLite + vector metadata.</li><li><strong>Modular Architecture:</strong> Built using LangGraph to control reasoning over tools, memory, and output.</li><li><strong>Progress Visualization:</strong> Includes dynamic progress bars and conversational threading with memory awareness.</li></ul><p>⸻</p><h3 id=key-insight>Key Insight</h3><blockquote><p>Virtual Buffett demonstrates how an LLM-based agent can emulate human investment reasoning by retrieving real-world evidence, applying structured principles, and offering interpretable, long-term-focused responses. The project shows that AI personas built on domain-specific corpora can deliver personalized, expert-level guidance, without hallucination.</p></blockquote><p><a href=https://github.com/Dbalette/MSDS_Class_Work>View the source code on GitHub</a></p></div><a href=https://github.com/Dbalette/MSDS_Class_Work class=external-link target=_blank rel=noopener>View on GitHub &rarr;</a></article><footer class=site-footer>2026 Daniel Balette</footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Virtual Buffett: AI Investment Advisor · Daniel Balette</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="wordmark">Daniel Balette</a>
+  <div class="navlinks">
+    
+      
+      <a href="/" class="">Home</a>
+    
+      
+      <a href="https://clarity-cfo.netlify.app/login" class="" target="_blank" rel="noopener">Clarity CFO</a>
+    
+      
+      <a href="/about/" class="">About</a>
+    
+      
+      <a href="https://www.linkedin.com/in/dan1492/" class="" target="_blank" rel="noopener">LinkedIn</a>
+    
+      
+      <a href="/projects/" class="">Projects</a>
+    
+      
+      <a href="/courses/" class="">Courses</a>
+    
+      
+      <a href="/reading/" class="">Reading List</a>
+    
+  </div>
+</nav>
+
+
+<article class="page">
+  <div class="page-header">
+    <p class="eyebrow">Projects</p>
+    <h1>Virtual Buffett: AI Investment Advisor</h1>
+  </div>
+  <div class="prose">
+    <p>This project introduces a custom-built AI agent inspired by Warren Buffett’s investing principles. Named “Virtual Buffett,” the assistant integrates LangChain, LangGraph, Milvus vector search, and OpenAI’s GPT-4o-mini. Developed for the MSDS 442 course at Northwestern University, the agent retrieves information from Buffett’s shareholder letters and offers context-aware investment insights using a Buffett-style persona.</p>
+<p>The assistant blends long-term memory (Milvus), real-time tools (like FRED and Tavily), and a custom persona to emulate Buffett’s plainspoken wisdom and investment philosophy, making it suitable for financial education, decision support, and investor engagement use cases.</p>
+<p>⸻</p>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Buffett Persona:</strong> Customized prompt engineering using 15 distilled Buffett principles.</li>
+<li><strong>Vector Search with Milvus:</strong> Embeds and indexes all shareholder letters from 1977–2023.</li>
+<li><strong>Tool Use:</strong> Includes FRED API for economic data, Tavily for web results, and FMCSA lookup for fundamentals.</li>
+<li><strong>Long-Term Memory:</strong> Stores structured conversation history using SQLite + vector metadata.</li>
+<li><strong>Modular Architecture:</strong> Built using LangGraph to control reasoning over tools, memory, and output.</li>
+<li><strong>Progress Visualization:</strong> Includes dynamic progress bars and conversational threading with memory awareness.</li>
+</ul>
+<p>⸻</p>
+<h3 id="key-insight">Key Insight</h3>
+<blockquote>
+<p>Virtual Buffett demonstrates how an LLM-based agent can emulate human investment reasoning by retrieving real-world evidence, applying structured principles, and offering interpretable, long-term-focused responses. The project shows that AI personas built on domain-specific corpora can deliver personalized, expert-level guidance, without hallucination.</p></blockquote>
+<p><a href="https://github.com/Dbalette/MSDS_Class_Work">View the source code on GitHub</a></p>
+  </div>
+  
+    <a href="https://github.com/Dbalette/MSDS_Class_Work" class="external-link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+  
+</article>
+
+<footer class="site-footer">
+  2026 Daniel Balette
+</footer>
+</body>
+</html>

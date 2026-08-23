@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Daniel Balette</title><link>https://dbalette-ai-finance.com/posts/</link><description>Recent content in Posts on Daniel Balette</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dbalette-ai-finance.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Welcome</title><link>https://dbalette-ai-finance.com/posts/welcome/</link><pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate><guid>https://dbalette-ai-finance.com/posts/welcome/</guid><description>&lt;p>Welcome to my portfolio site!&lt;/p>
-&lt;p>This is where I’ll be posting my projects as well as info &amp;amp; resources for the Northwestern MSDS community.&lt;/p>
-&lt;p>&lt;strong>Join Me:&lt;/strong>
-&lt;a href="https://sps.northwestern.edu/masters/data-science/">https://sps.northwestern.edu/masters/data-science/&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Daniel Balette</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Daniel Balette</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description>&lt;p&gt;Welcome to my portfolio site!&lt;/p&gt;&#xA;&lt;p&gt;This is where I’ll be posting my projects as well as info &amp;amp; resources for the Northwestern MSDS community.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Join Me:&lt;/strong&gt;&#xA;&lt;a href=&#34;https://sps.northwestern.edu/masters/data-science/&#34;&gt;https://sps.northwestern.edu/masters/data-science/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

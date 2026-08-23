@@ -1,8 +1,76 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Chicago Yelp Graph Database Analysis · Daniel Balette</title>
-<link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel=stylesheet><link rel=stylesheet href=/css/main.css></head><body><nav class=site-nav><a href=/ class=wordmark>Daniel Balette</a><div class=navlinks><a href=/>Home</a>
-<a href=https://clarity-cfo.netlify.app/login target=_blank rel=noopener>Clarity CFO</a>
-<a href=/about/>About</a>
-<a href=https://www.linkedin.com/in/dan1492/ target=_blank rel=noopener>LinkedIn</a>
-<a href=/projects/>Projects</a>
-<a href=/courses/>Courses</a>
-<a href=/reading/>Reading List</a></div></nav><article class=page><div class=page-header><p class=eyebrow>Projects</p><h1>Chicago Yelp Graph Database Analysis</h1></div><div class=prose><p>This project explores the use of EdgeDB to model and analyze a real-world graph-relational dataset, Yelp businesses and reviews from the Chicago metro area. Built for the MSDS 420-3 Databases course at Northwestern University, the notebook walks through schema design, data loading, and analytical queries over a semi-structured dataset.</p><p>By adopting EdgeDB, the project illustrates how flexible, queryable schemas can unlock new dimensions of insight, blending the rigor of relational databases with the adaptability of graph systems. Business metadata, category tags, and review sentiment are cross-linked to enable multi-hop queries that mimic human curiosity.</p><p>⸻</p><h3 id=features>Features</h3><ul><li><strong>Graph Schema Design:</strong> Models Yelp businesses, users, reviews, and locations as typed relations and links in EdgeDB.</li><li><strong>Data Ingestion:</strong> Loads cleaned JSON data into EdgeDB and validates schema integrity.</li><li><strong>Query Language Mastery:</strong> Uses EdgeQL for pattern-matching and filtering, including aggregates, conditional expressions, and nested structures.</li><li><strong>Review Sentiment & Trends:</strong> Analyzes how review scores and comment patterns shift across neighborhoods and categories.</li><li><strong>Graph Navigation:</strong> Demonstrates multi-hop joins between users reviews businesses locations.</li></ul><p>⸻</p><h3 id=key-insight>Key Insight</h3><blockquote><p>SQL-based tools dominate enterprise analytics, but graph-relational platforms like EdgeDB offer a more natural fit for richly connected data. This project shows how the right data model can turn flat tables into exploratory engines for user and business insight.</p></blockquote><p><a href=https://github.com/Dbalette/MSDS_Class_Work>View the source code on GitHub</a></p></div><a href=https://github.com/Dbalette/MSDS_Class_Work class=external-link target=_blank rel=noopener>View on GitHub &rarr;</a></article><footer class=site-footer>2026 Daniel Balette</footer></body></html>
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chicago Yelp Graph Database Analysis · Daniel Balette</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Public+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+<nav class="site-nav">
+  <a href="/" class="wordmark">Daniel Balette</a>
+  <div class="navlinks">
+    
+      
+      <a href="/" class="">Home</a>
+    
+      
+      <a href="https://clarity-cfo.netlify.app/login" class="" target="_blank" rel="noopener">Clarity CFO</a>
+    
+      
+      <a href="/about/" class="">About</a>
+    
+      
+      <a href="https://www.linkedin.com/in/dan1492/" class="" target="_blank" rel="noopener">LinkedIn</a>
+    
+      
+      <a href="/projects/" class="">Projects</a>
+    
+      
+      <a href="/courses/" class="">Courses</a>
+    
+      
+      <a href="/reading/" class="">Reading List</a>
+    
+  </div>
+</nav>
+
+
+<article class="page">
+  <div class="page-header">
+    <p class="eyebrow">Projects</p>
+    <h1>Chicago Yelp Graph Database Analysis</h1>
+  </div>
+  <div class="prose">
+    <p>This project explores the use of EdgeDB to model and analyze a real-world graph-relational dataset, Yelp businesses and reviews from the Chicago metro area. Built for the MSDS 420-3 Databases course at Northwestern University, the notebook walks through schema design, data loading, and analytical queries over a semi-structured dataset.</p>
+<p>By adopting EdgeDB, the project illustrates how flexible, queryable schemas can unlock new dimensions of insight, blending the rigor of relational databases with the adaptability of graph systems. Business metadata, category tags, and review sentiment are cross-linked to enable multi-hop queries that mimic human curiosity.</p>
+<p>⸻</p>
+<h3 id="features">Features</h3>
+<ul>
+<li><strong>Graph Schema Design:</strong> Models Yelp businesses, users, reviews, and locations as typed relations and links in EdgeDB.</li>
+<li><strong>Data Ingestion:</strong> Loads cleaned JSON data into EdgeDB and validates schema integrity.</li>
+<li><strong>Query Language Mastery:</strong> Uses EdgeQL for pattern-matching and filtering, including aggregates, conditional expressions, and nested structures.</li>
+<li><strong>Review Sentiment &amp; Trends:</strong> Analyzes how review scores and comment patterns shift across neighborhoods and categories.</li>
+<li><strong>Graph Navigation:</strong> Demonstrates multi-hop joins between users reviews businesses locations.</li>
+</ul>
+<p>⸻</p>
+<h3 id="key-insight">Key Insight</h3>
+<blockquote>
+<p>SQL-based tools dominate enterprise analytics, but graph-relational platforms like EdgeDB offer a more natural fit for richly connected data. This project shows how the right data model can turn flat tables into exploratory engines for user and business insight.</p></blockquote>
+<p><a href="https://github.com/Dbalette/MSDS_Class_Work">View the source code on GitHub</a></p>
+  </div>
+  
+    <a href="https://github.com/Dbalette/MSDS_Class_Work" class="external-link" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+  
+</article>
+
+<footer class="site-footer">
+  2026 Daniel Balette
+</footer>
+</body>
+</html>
