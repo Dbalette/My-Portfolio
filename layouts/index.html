@@ -17,7 +17,7 @@
         "name" "Arizona Water Watch"
         "platform" "iOS · App Store"
         "description" "An interpretation-first water app for Arizona - reservoirs, groundwater, rivers, drought, and snowpack, with the context behind the numbers, not just the raw data."
-        "image" "/products/arizona-water-watch.jpg"
+        "image" "/products/arizona-water-watch.png"
         "url" "https://apps.apple.com/us/app/arizona-water-watch/id6797727942"
         "isAppIcon" true
       )
@@ -25,9 +25,10 @@
         "name" "MPLS Crime Watch"
         "platform" "iOS · App Store"
         "description" "Turns Minneapolis public-safety data into a live, mapped picture of what's happening nearby - heat maps, incident filters, and proximity alerts."
-        "image" "/products/mpls-crime-watch.jpg"
+        "image" "/products/mpls-crime-watch.png"
         "url" "https://apps.apple.com/us/app/mpls-crime-watch/id6796348759"
         "isAppIcon" true
+        "iconRing" true
       )
       (dict
         "name" "Leverage & Lag"
@@ -40,7 +41,7 @@
     }}
     {{ range $products }}
       <a href="{{ .url }}" class="product-card" target="_blank" rel="noopener">
-        <img src="{{ .image }}" alt="{{ .name }}" class="product-card-image{{ if .isAppIcon }} product-card-image--icon{{ end }}">
+        <img src="{{ .image }}" alt="{{ .name }}" class="product-card-image{{ if .isAppIcon }} product-card-image--icon{{ end }}{{ if .iconRing }} product-card-image--ring{{ end }}">
         <div class="product-card-body">
           <h3>{{ .name }}</h3>
           <p class="product-card-platform">{{ .platform }}</p>

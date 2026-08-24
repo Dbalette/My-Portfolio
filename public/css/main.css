@@ -315,16 +315,28 @@ img {
 
 .product-card-image--icon {
   /* Apple's own icon files bake in their rounded-corner ("squircle")
-     mask as actual white pixels, not transparency - a JPEG can't hold
-     alpha. Cropping can't remove this cleanly: the white only lives in
-     the four corners, not as a uniform border, so a crop tight enough
-     to clear the corners cuts into the icon's own edge content instead
-     (confirmed live - an earlier crop attempt sliced into the app
-     name). A rounded clip on the frame itself removes exactly the
-     corner regions and nothing else, independent of how the source
-     file was cropped. Only applied to the two App Store icons - the
-     book cover has real square corners and shouldn't be rounded. */
-  border-radius: 22%;
+     mask as solid white pixels, not transparency - a JPEG can't hold
+     alpha. It's a superellipse, not a circular arc, so no single CSS
+     border-radius can clip it without either leaving white slivers on
+     the diagonal or cutting into real content on the flat edges
+     (confirmed live both ways). The source PNGs have the mask
+     flood-filled to real transparency instead, an exact removal
+     regardless of shape - this class no longer needs to clip anything
+     itself. Only applied to the two App Store icons - the book cover
+     has real square corners and shouldn't be rounded.
+  */
+}
+
+.product-card-image--ring {
+  /* Crime Watch's icon is almost entirely near-black and disappears
+     into the card's own dark background with nothing to define its
+     edge. A ring in the icon's own neon blue (sampled from its
+     "WATCH" glow) gives it a boundary the way Arizona Water Watch
+     already has for free from its own bright, warm art. */
+  border-radius: 18%;
+  box-shadow:
+    0 0 0 2px rgba(39, 166, 243, 0.6),
+    0 0 16px rgba(39, 166, 243, 0.35);
 }
 
 .product-card-body {
