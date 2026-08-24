@@ -328,15 +328,12 @@ img {
 }
 
 .product-card-image--ring {
-  /* Crime Watch's icon is almost entirely near-black and disappears
-     into the card's own dark background with nothing to define its
-     edge. A ring in the icon's own neon blue (sampled from its
-     "WATCH" glow) gives it a boundary the way Arizona Water Watch
-     already has for free from its own bright, warm art. */
+  /* Crime Watch's real icon.png (see the commit that swapped in the
+     master files) already draws its own ring as part of the design -
+     this class used to add a second, synthetic one in CSS on top of
+     it. Just the corner rounding stays, to match the squircle shape
+     the other icon gets from its own transparency. */
   border-radius: 18%;
-  box-shadow:
-    0 0 0 2px rgba(39, 166, 243, 0.6),
-    0 0 16px rgba(39, 166, 243, 0.35);
 }
 
 .product-card-body {
