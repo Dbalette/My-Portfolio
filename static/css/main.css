@@ -327,15 +327,6 @@ img {
   */
 }
 
-.product-card-image--ring {
-  /* Crime Watch's real icon.png (see the commit that swapped in the
-     master files) already draws its own ring as part of the design -
-     this class used to add a second, synthetic one in CSS on top of
-     it. Just the corner rounding stays, to match the squircle shape
-     the other icon gets from its own transparency. */
-  border-radius: 18%;
-}
-
 .product-card-body {
   padding: 20px;
 }

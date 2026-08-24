@@ -28,7 +28,6 @@
         "image" "/products/mpls-crime-watch.png"
         "url" "https://apps.apple.com/us/app/mpls-crime-watch/id6796348759"
         "isAppIcon" true
-        "iconRing" true
       )
       (dict
         "name" "Leverage & Lag"
@@ -41,7 +40,7 @@
     }}
     {{ range $products }}
       <a href="{{ .url }}" class="product-card" target="_blank" rel="noopener">
-        <img src="{{ .image }}" alt="{{ .name }}" class="product-card-image{{ if .isAppIcon }} product-card-image--icon{{ end }}{{ if .iconRing }} product-card-image--ring{{ end }}">
+        <img src="{{ .image }}" alt="{{ .name }}" class="product-card-image{{ if .isAppIcon }} product-card-image--icon{{ end }}">
         <div class="product-card-body">
           <h3>{{ .name }}</h3>
           <p class="product-card-platform">{{ .platform }}</p>
